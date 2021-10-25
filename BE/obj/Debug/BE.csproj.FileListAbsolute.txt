@@ -1,0 +1,5 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BE\bin\Debug\BE.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BE\bin\Debug\BE.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BE\obj\Debug\BE.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BE\obj\Debug\BE.pdb

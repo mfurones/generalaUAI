@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1AA16BA-6D56-498B-A0E3-A2755AF1B754}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GUI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FMACERCAGENERALA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMACERCAGENERALA.Designer.cs">
+      <DependentUpon>FMACERCAGENERALA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMCONCEPCION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMCONCEPCION.Designer.cs">
+      <DependentUpon>FMCONCEPCION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMCONTENEDOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMCONTENEDOR.Designer.cs">
+      <DependentUpon>FMCONTENEDOR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMESTADISTICA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMESTADISTICA.Designer.cs">
+      <DependentUpon>FMESTADISTICA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMLOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMLOGIN.Designer.cs">
+      <DependentUpon>FMLOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMPARTIDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMPARTIDA.Designer.cs">
+      <DependentUpon>FMPARTIDA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMREGISTRAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMREGISTRAR.Designer.cs">
+      <DependentUpon>FMREGISTRAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMREGLAMENTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMREGLAMENTO.Designer.cs">
+      <DependentUpon>FMREGLAMENTO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMTABLERO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMTABLERO.Designer.cs">
+      <DependentUpon>FMTABLERO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FMACERCAGENERALA.resx">
+      <DependentUpon>FMACERCAGENERALA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMCONCEPCION.resx">
+      <DependentUpon>FMCONCEPCION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMCONTENEDOR.resx">
+      <DependentUpon>FMCONTENEDOR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMESTADISTICA.resx">
+      <DependentUpon>FMESTADISTICA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMLOGIN.resx">
+      <DependentUpon>FMLOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMPARTIDA.resx">
+      <DependentUpon>FMPARTIDA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMREGISTRAR.resx">
+      <DependentUpon>FMREGISTRAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMREGLAMENTO.resx">
+      <DependentUpon>FMREGLAMENTO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMTABLERO.resx">
+      <DependentUpon>FMTABLERO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{05c002e1-eba7-4742-8ebb-c05b1db9b232}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{f1caf350-9d06-424c-89bf-33af5d1d4185}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

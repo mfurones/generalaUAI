@@ -1,0 +1,7 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\bin\Debug\DAL.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\bin\Debug\BE.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\bin\Debug\BE.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\obj\Debug\DAL.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\DAL\obj\Debug\DAL.pdb

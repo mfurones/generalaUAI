@@ -1,0 +1,9 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\bin\Debug\BLL.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\bin\Debug\BE.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\bin\Debug\DAL.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\bin\Debug\BE.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\bin\Debug\DAL.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\obj\Debug\BLL.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Generala-Cs-MF\BLL\obj\Debug\BLL.pdb
